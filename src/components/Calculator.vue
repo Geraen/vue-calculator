@@ -152,7 +152,7 @@
     }
 
     .calculator {
-        background-color: #bbb;
+        background-color: #aaa;
         width: 25%;
         height: auto;
         margin: 15% auto 0;
@@ -164,7 +164,8 @@
     .screen {
         grid-column: 1/5;
         /*height: 100px;*/
-        background: rgba(0, 84, 227, 0.26);
+        background-color: rgba(0, 85, 205, 0.55);
+        color: #fff;
         margin-bottom: 5px;
         text-align: right;
         font-size: 24px;
@@ -179,6 +180,7 @@
 
     .button:hover {
         cursor: pointer;
+        background-color: #ccc;
     }
 
     .button > span {
@@ -190,9 +192,18 @@
         background-color: #fff;
     }
 
+    .button.number:hover {
+        background-color: #eee;
+    }
+
     .button.operator,
     .button.result {
-        background-color: rgba(255, 131, 0, 0.45);
+        background-color: rgba(255, 131, 0, 0.5);
+    }
+
+    .button.operator:hover,
+    .button.result:hover {
+        background-color: rgba(255, 131, 0, 0.75);;
     }
 
     .button.number.wide {
