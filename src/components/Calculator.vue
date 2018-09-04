@@ -198,12 +198,12 @@
 
     .button.operator,
     .button.result {
-        background-color: rgba(255, 131, 0, 0.5);
+        background-color: rgba(255, 131, 0, 0.75);
     }
 
     .button.operator:hover,
     .button.result:hover {
-        background-color: rgba(255, 131, 0, 0.75);;
+        background-color: rgba(255, 131, 0, 0.5);
     }
 
     .button.number.wide {
